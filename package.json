@@ -1,0 +1,30 @@
+{
+  "name": "es6-environment",
+  "version": "1.0.0",
+  "description": "Boilerplate to start with ES6 Development ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "webpack --build"
+  },
+  "keywords": [
+    "es6",
+    "setup",
+    "babel"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ronit-mukherjee/es6-environment-setup.git"
+  },
+  "author": "Ronit Mukherjee <connect.ronit@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "babel-loader": "^8.0.5",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
+  },
+  "dependencies": {}
+}
